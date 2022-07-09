@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@300&family=Gentium+Book+Plus&family=Gulzar&family=Lobster&family=Oswald:wght@200;400&family=Playfair+Display:ital@0;1&family=Rubik+Moonrocks&family=The+Nautigal&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+.container{
+background: url("https://i1.faceprep.in/ProGrad/guess-number-bg.png");
+font-family: 'Arima', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'The Nautigal', cursive;
+background-color: black;
+background-size: cover;
+width: 100vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+line-height: 1.6;
+padding: 0 20px;
+}
+
+.input-container{
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+position: absolute;
+bottom: 40%;
+color: floralwhite;
+margin-left: 650px;
+
+}
+input{
+    margin: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 1.3em;
+    height: 2.5em;
+    font-family: 'Arima', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'The Nautigal', cursive;
+}
+
+.button{
+    background-color: #03fccf;
+    margin: 30px 0;
+    border-radius: 4px;
+    min-width: 100px;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 1.8em;
+    color: white;
+    cursor: pointer;
+    font-family: 'Arima', cursive;
+font-family: 'Gentium Book Plus', serif;
+font-family: 'Gulzar', serif;
+font-family: 'Lobster', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Rubik Moonrocks', cursive;
+font-family: 'The Nautigal', cursive;
+}
+
+h1{
+    color:white;
+    text-align: center;
+    margin: 20px;
+}
+
+#message{
+    font-size: 1.5em;
+    background-color:  #03fccf;
+    padding: 5px 15px;
+    border-radius: 2px;
+    text-align: center;
+    display: none;
+    position: absolute;
+    bottom: 30%;
+    margin-left: 650px;
+  
+}
+#attemptsLabel{
+    color: white;
+    text-align: center;
+    position: absolute;
+    bottom: 35%;
+    margin-left: 650px;
+  
+}
+img{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+
+}
+
+#winimg{
+    height: 90vh;
+    width: 150vw;
+}
+#loseimg{
+    height: 100vh;
+    width: 100vw;
+}
+#textLabel{
+    color: white;
+    display: flex;
+    margin-left: 90px;
+}
+#title{
+    color: white;
+ 
+    text-align: center;
+    position: absolute;
+    bottom: 60%; 
+    margin-left: 600px;
+    color: aliceblue;
+}
+#heading{
+    font-size: 2em;
+}
+#attemptCount{
+    font-size: large;
+    text-align: center;
+    position: absolute;
+    bottom: 50%;
+    margin-left: 350px;
+    color: antiquewhite;
+}
+#checkButton{
+size: 80%;
+}
+#textBox{
+ tab-size: 80%;
+}
